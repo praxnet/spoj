@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ResourceQuota
-metadata:
-  name: object-count
-  namespace: object-quota
-spec:
-  hard:
-    pods: "1"
-    services: "1"
