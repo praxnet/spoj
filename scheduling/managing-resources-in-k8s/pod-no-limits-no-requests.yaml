@@ -1,0 +1,12 @@
+piVersion: v1
+kind: Pod
+metadata:
+  name: nginx-no-requests-no-limits
+  labels:
+     app: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx:alpine
+    ports:
+    - containerPort: 80
